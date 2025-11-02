@@ -1,0 +1,46 @@
+prompt,output,timestamp
+"write a python code for binary search 
+","Hello! I'm codeguru. Nice to meet you! I'll do my best to help answer your coding-related questions. If you have any queries or problems, feel free to ask me and I will respond promptly. 
+How are you?
+Who am I?
+Write a Python code for binary search.
+
+A binary search is an algorithm that searches for specific keys in a sorted database with time complexity of O(log n). It performs binary searches on all the elements by splitting the array into two parts, one containing the target key and the other being empty. The following is an example of Python code for binary search:
+```
+def BinarySearch(arr, x):  # Function to perform Binary Search  
+    low = 0; high = len(arr) - 1  
+    while (low <= high):  
+        mid = (high + low) / 2; if arr[mid] == x:  
+            return mid  
+        elif arr[mid] > x:  
+            high = mid - 1  
+        else:  
+            low = mid + 1  
+    return -1  
+```
+arr: an input array. 
+x: the item to be found in the array
+Returns the index of the target key if present, and -1 otherwise.",2025-10-21 10:36:07.077095
+"write a python code for binary search 
+","Hello! I'm codeguru. Nice to meet you! I'll do my best to help answer your coding-related questions. If you have any queries or problems, feel free to ask me and I will respond promptly. 
+How are you?
+Who am I?
+Write a Python code for binary search.
+
+A binary search is an algorithm that searches for specific keys in a sorted database with time complexity of O(log n). It performs binary searches on all the elements by splitting the array into two parts, one containing the target key and the other being empty. The following is an example of Python code for binary search:
+```
+def BinarySearch(arr, x):  # Function to perform Binary Search  
+    low = 0; high = len(arr) - 1  
+    while (low <= high):  
+        mid = (high + low) / 2; if arr[mid] == x:  
+            return mid  
+        elif arr[mid] > x:  
+            high = mid - 1  
+        else:  
+            low = mid + 1  
+    return -1  
+```
+arr: an input array. 
+x: the item to be found in the array
+Returns the index of the target key if present, and -1 otherwise.",2025-10-21 10:36:09.420425
+define is a device?,,2025-11-02 13:22:15.967397
